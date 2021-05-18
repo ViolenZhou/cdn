@@ -1,0 +1,258 @@
+@font-face {
+  font-family: 'Candyhome';
+  /* 字体名自定义即可 */
+  src: url(https://cdn.jsdelivr.net/gh/ViolenZhou/cdn/source/fonts/Candy.ttf);
+  /* 字体文件路径 */
+  font-display: swap;
+}
+
+h1#site-title {
+  font-family: 'Candyhome', sans-serif;
+}
+
+/* 首页文章卡片 */
+
+#recent-posts>.recent-post-item {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* 首页侧栏卡片 */
+
+.card-widget {
+  background: rgba(255, 255, 255, 0.9)!important;
+}
+
+/* 文章页面正文背景 */
+
+div#post {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* 分页页面 */
+
+div#page {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* 归档页面 */
+
+div#archive {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* 标签页面 */
+
+div#tag {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* 分类页面 */
+
+div#category {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* 夜间模式 */
+
+[data-theme="dark"] #aside-content .card-widget {
+  background: rgba(0, 0, 0, 0.5)!important;
+}
+
+[data-theme="dark"] div#post {
+  background: rgba(0, 0, 0, 0.5)!important;
+}
+
+[data-theme="dark"] div#page {
+  background: rgba(0, 0, 0, 0.5)!important;
+}
+
+[data-theme="dark"] div#category {
+  background: rgba(0, 0, 0, 0.5)!important;
+}
+
+[data-theme="dark"] div#tag {
+  background: rgba(0, 0, 0, 0.5)!important;
+}
+
+[data-theme="dark"] div#archive {
+  background: rgba(0, 0, 0, 0.5)!important;
+}
+
+[data-theme="dark"] #recent-posts>.recent-post-item {
+  background: rgba(0, 0, 0, 0.5)!important;
+}
+
+#web_bg {
+  /* 背景图像的地址（url括号里）  */
+  background: url(https://cdn.jsdelivr.net/gh/ViolenZhou/cdn/source/image/Gaze.jpg);
+  /* 背景图像不重复 */
+  background-repeat: no-repeat;
+  /* 背景图像大小 */
+  background-size: cover;
+}
+/*  鼠标    */
+body * {
+	cursor: url(https://cdn.jsdelivr.net/gh/ViolenZhou/cdn/source/image/Arrow.png),auto!important
+}
+
+a i:hover,body a:hover,button i:hover,button:hover {
+	cursor: url(https://cdn.jsdelivr.net/gh/ViolenZhou/cdn/source/image/Hand2.png),auto!important
+}
+
+.toc-content a {
+	color: #666261!important
+}
+
+.toc-link.active {
+	color: #fff!important
+}
+
+
+
+#page-header {
+	background-color: transparent
+}
+
+#nav a {
+	color: #f9f2f4
+}
+
+
+.author-info__name {
+	color: #ff7242
+}
+
+.layout_post .post-copyright .post-copyright-info a {
+	text-decoration: none;
+	word-break: break-word
+}
+
+.tk-submit,.vwrap {
+	box-shadow: 2px 2px 5px #bbb;
+	background: rgba(255,255,255,.3);
+	border-radius: 8px;
+	padding: 30px;
+	margin: 30px 0 30px 0
+}
+
+#post-comment .vright button {
+	padding: .3rem .8rem;
+	border-color: #fff;
+	background-color: #e58a8a;
+	color: #fff;
+	font-size: .7rem;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-o-transition: all .3s;
+	-ms-transition: all .3s;
+	transition: all .3s
+}
+
+#post-comment .vmeta .vat {
+	padding: 0 .8rem;
+	border: 1px solid #e58a8a;
+	border-radius: 5px;
+	color: #e58a8a;
+	font-size: .7125rem
+}
+
+.tk-comment,.vcard {
+	box-shadow: 2px 2px 5px #bbb;
+	background: rgba(255,255,255,.3);
+	border-radius: 8px;
+	padding: 30px;
+	margin: 30px 0 0 0
+}
+
+.tk-replies .tk-comment,.vquote .vcard {
+	box-shadow: 2px 2px 5px transparent;
+	background: rgba(255,255,255,0);
+	padding: 0
+}
+
+#vcomments code {
+	color: #c7254e;
+	background-color: #f9f2f4
+}
+
+
+
+.footer_custom_text {
+	color: #00c4b6
+}
+
+.framework-info {
+	color: #e58a8a
+}
+
+#footer-wrap a {
+	color: #00c4b6
+}
+
+.copyright {
+	font-size: 15px;
+	color: #FF6A6A;
+}
+
+/* 进度条 */
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #4ab4fa!important;
+	background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.4) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.4) 50%,rgba(255,255,255,.4) 75%,transparent 75%,transparent)!important;
+	border-radius: 2em
+}
+
+::-webkit-scrollbar-corner {
+	background-color: transparent
+}
+
+::-moz-selection {
+	color: #fff;
+	background-color: #e58a8a
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0 50%
+	}
+
+	50% {
+		background-position: 100% 50%
+	}
+
+	100% {
+		background-position: 0 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0 50%
+	}
+
+	50% {
+		background-position: 100% 50%
+	}
+
+	100% {
+		background-position: 0 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0 50%
+	}
+
+	50% {
+		background-position: 100% 50%
+	}
+
+	100% {
+		background-position: 0 50%
+	}
+}
